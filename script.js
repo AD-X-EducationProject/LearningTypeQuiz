@@ -84,15 +84,15 @@ function updateResult() {
   if (visualScore >= 2) {
     result.innerHTML = "Your learning type is Visual!";
     description.innerHTML =
-      "";
+      "Slide presentations, videos, pictures, and written notes will help you learn most effectively.";
   } else if (auditoryScore >= 2) {
     result.innerHTML = "Your learning type is Auditory!";
     description.innerHTML =
-      "";
+      "Repitition will help you learn. Try to have more collaborative assignments implemented into your learning.";
   } else if (physicalScore >= 2) {
     result.innerHTML = "Your learning type is Physical!";
     description.innerHTML =
-      "";
+      "Try to have more experiments and movement can be implemented into your learning.";
 
   } else {
     result.innerHTML =
