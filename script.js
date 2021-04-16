@@ -101,7 +101,6 @@ function updateResult() {
       "You will have to do further testing to find out what type of learner are you";
   }
 }
-
 function resetQuiz(){
     result.innerHTML = "Your result is...";
     description.innerHTML = "";
